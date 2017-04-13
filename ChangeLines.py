@@ -7,9 +7,14 @@ Created on Tue Mar 14 15:21:19 2017
 Stupidly simple program to change a specific line in a text file. 
 
 """
+from glob import glob
 
 
+#paths = glob('*/') #get all files in current directory
 
+#paths = [p[:-1] for p in paths] #strip off trailing backslashes
+
+#for folder in paths: 
 
 for folder in range(1,5):
     
